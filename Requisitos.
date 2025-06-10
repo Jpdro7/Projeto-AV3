@@ -1,0 +1,20 @@
+- Requisitos.
+
+R0 - Cadastro de Usuário.
+R01 - Login.
+R02 - Cadastro de Carona.
+R03 - Listar Caronas Disponíveis.
+R04 - Buscar Carona por Origem e Destino.
+R05 - Reservar Vaga em Carona.
+R06 - Cancelar Reserva.
+R07 - Remover Carona.
+R08 - Mostrar Detalhes de Carona.
+R09 - Mostrar Carona cadastradas.
+R10 - Logout.
+R11 - Funcionalidade EXTRA (Grafico para ver a quantidade de reservas feitas pelo usuário).
+R12 - Salvar Usuários em Arquivo.
+R13 - Importar Usuários Salvos no Arquivo.
+R14 - Relatório de Totalizadores.
+R15 - Salvar Relatório.
+
+By: JP
