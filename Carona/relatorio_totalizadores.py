@@ -33,7 +33,7 @@ def relatorio(caronas, reservas, usuario_log):
         salvar_relatorio = input('\nVocê deseja salvar o relatorio ? ')
         if salvar_relatorio == 's':
             with open('relatorio.txt', 'a', encoding = 'utf-8') as relatorio_salvo:
-                dados_salvos = (f'{c["origem"]},{c["destino"]},{c["data"]},{c["hora"]},{valor:.2f},{passageiros}.{c["vagas"]},{total:.2f}\n')
+                dados_salvos = (f'{c["origem"]},{c["destino"]},{c["data"]},{c["hora"]},{c["vagas"]},{passageiros},{valor:.2f},{total:.2f}\n')
                 relatorio_salvo.write(dados_salvos)
         else:
             return
